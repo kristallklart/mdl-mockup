@@ -1,0 +1,26 @@
+.custom-seperator {
+  height: 16px;
+}
+
+.mdl-card__actions {
+  position: absolute;
+  bottom: 0px;
+  height: 53px;
+}
+
+.mdl-card {
+  padding-bottom: 53px;
+}
+
+.mdl-card__media > img {
+  max-width: 100%;
+}
+
+.mdl-card__media {
+  height: 3px;
+}
+
+.custom-media {
+  height: 200px;
+  background-color: #fff;
+}

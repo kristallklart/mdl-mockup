@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MDL-Test</title>
+  <link rel="stylesheet" href="css/main.css">
+  <!-- <link rel="stylesheet" href="node_modules/material-design-lite/dist/material.indigo-pink.min.css"> -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,500,300italic,500italic,700italic,900,300">
+</head>
+
+<body>
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title">Rendez-vous</span>
+      </div>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">Tab 1</a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">Tab 2</a>
+        <a href="#fixed-tab-3" class="mdl-layout__tab">Tab 3</a>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span class="mdl-layout-title">Settings</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">
+          <i class="material-icons" role="presentation">add_circle</i>
+          Link
+        </a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+        <a class="mdl-navigation__link" href="">Link</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content">
+          <!-- Your content goes here -->
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-grid--no-spacing">
+
+              <div class="mdl-card mdl-shadow--2dp mdl-cell--12-col">
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text">Sixa News</h2>
+                  <div class="mdl-layout-spacer"></div>
+                  <div>
+                    <button id="demo-menu-lower-right1" class="mdl-button mdl-js-button mdl-button--icon">
+                      <i class="material-icons">more_vert</i>
+                    </button>
+
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right1">
+                      <li class="mdl-menu__item">Some Action</li>
+                      <li class="mdl-menu__item">Another Action</li>
+                      <li disabled class="mdl-menu__item">Disabled Action</li>
+                      <li class="mdl-menu__item">Yet Another Action</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mdl-card__media">
+                  <img src="card-img.jpg" alt="">
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Read more
+                  </a>
+                </div>
+              </div>
+
+              <div class="mdl-cell--1-col custom-seperator"></div>
+
+              <div class="mdl-card mdl-shadow--2dp mdl-cell--12-col">
+                <div class="mdl-card__title">
+                  <h2 class="mdl-card__title-text">Sixa Connect</h2>
+                  <div class="mdl-layout-spacer"></div>
+                  <div>
+                    <button id="demo-menu-lower-right2" class="mdl-button mdl-js-button mdl-button--icon">
+                      <i class="material-icons">more_vert</i>
+                    </button>
+
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right2">
+                      <li class="mdl-menu__item">Some Action</li>
+                      <li class="mdl-menu__item">Another Action</li>
+                      <li disabled class="mdl-menu__item">Disabled Action</li>
+                      <li class="mdl-menu__item">Yet Another Action</li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="mdl-card__media">
+                  <img src="card-img.jpg" alt="">
+                </div>
+                <div class="mdl-card__supporting-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                  <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                    Read more
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Site Designer</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right5" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right5">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Sixa Companion</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right6" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right6">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <img src="card-img.jpg" alt="">
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Sixa Academy</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right7" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right7">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <img src="card-img.jpg" alt="">
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Sixa Academy</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right7" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right7">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <img src="card-img.jpg" alt="">
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+        <div class="page-content">
+          <!-- Your content goes here -->
+          <div class="mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Site Designer</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right5" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right5">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--12-col-tablet mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Site Designer</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right5" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right5">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--6-col mdl-cell--12-col-tablet mdl-card mdl-shadow--2dp">
+              <!-- content here -->
+              <div class="mdl-card__title">
+                <h2 class="mdl-card__title-text">Site Designer</h2>
+                <div class="mdl-layout-spacer"></div>
+                <div>
+                  <button id="demo-menu-lower-right5" class="mdl-button mdl-js-button mdl-button--icon">
+                    <i class="material-icons">more_vert</i>
+                  </button>
+
+                  <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right5">
+                    <li class="mdl-menu__item">Some Action</li>
+                    <li class="mdl-menu__item">Another Action</li>
+                    <li disabled class="mdl-menu__item">Disabled Action</li>
+                    <li class="mdl-menu__item">Yet Another Action</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mdl-card__media">
+                <canvas id="myChart" width="400" height="400"></canvas>
+              </div>
+              <div class="mdl-card__supporting-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan convallis.
+              </div>
+              <div class="mdl-card__actions mdl-card--border">
+                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+                  Read more
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+        <div class="page-content">
+          <!-- Your content goes here -->
+        </div>
+      </section>
+    </main>
+
+  </div>
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+  <script src="js/myChart.js"></script> -->
+</body>
+
+</html>
